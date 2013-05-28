@@ -12,6 +12,8 @@ $("#credits").click(function(){
 	$('body, html').animate({ scrollTop: '4505px'}, 800);
 });
 
+
+
 $(window).scroll(function() {
 		
 var scrollOffset = $(window).scrollTop();
@@ -87,7 +89,7 @@ if (scrollOffset >= 0 && scrollOffset <= 10) {
 		$('#intro').css("border-bottom", "none");
 		$('#references').css("border-bottom", "solid black 2px");
 		$('#credits').css("border-bottom", "none");
-		$('#captions').html("").html("<span class='paragraphOne'>3</span> <span class='paragraphTwo'>How to Build Your own Living Structures, is a book about modular, flexible living structures written by KEN ISAACS in 1974.</span>");
+		$('#captions').html("").html("<span class='paragraphOne'>3</span> <span class='paragraphTwo'>How to Build Your Own Living Structures, is a book about modular, flexible living structures written by KEN ISAACS in 1974.</span>");
 		$('#aboutMe').html("");
 	}
 	else if (scrollOffset > 3100 && scrollOffset <= 3800) {
@@ -115,7 +117,7 @@ if (scrollOffset >= 0 && scrollOffset <= 10) {
 		$('#references').css("border-bottom", "none");
 		$('#credits').css("border-bottom", "solid black 2px");
 		$('#captions').html("");
-		$('#aboutMe').html("<span id='aboutMeParagraphOne'>ABOUT</span>Eric Nylund is a graphic designer based in New Haven, Connecticut and Brooklyn, New York. This is a weekly update of the work that is currently influencing his practice.");
+		$('#aboutMe').html("<span id='aboutMeParagraphOne'>ABOUT</span>Eric Nylund is a graphic designer based in New Haven, Connecticut and Brooklyn, New York. This is a weekly update of the work that is currently influencing his practice.<br /><br /><span id='aboutMeParagraphOne'>ARCHIVE</span><a href='index.html'>Current</a>, 27 May 2013, 3 June 2013");
 	}
 
 	
